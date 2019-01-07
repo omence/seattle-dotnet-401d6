@@ -10,8 +10,15 @@
 ## Lecture Outline
 
 ### Welcome to 401: Advanced Software Development in ASP.NET MVC Core
-Welcome to Class! Please be sure read through the syllabus and get comfortable with both Visual Studio and Canvas.
-Introduce yourself to your classmates, and come to class ready to learn!
+Welcome to Class! Please be sure read through the syllabus and get comfortable with both Visual Studio and Canvas. Introduce yourself to your classmates, and come to class ready to learn!
+
+## Class Overview
+- Syllabus:
+	- Class overview
+	- Class Expectations
+- General Availability of Instructors/TAs
+- Career Coaching
+- Daily Code Challenges
 
 ### C# Basics
 * What is C#
