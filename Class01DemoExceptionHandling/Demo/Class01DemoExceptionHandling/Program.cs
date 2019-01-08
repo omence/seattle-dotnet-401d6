@@ -4,26 +4,29 @@ namespace Class01DemoExceptionHandling
 {
     class Program
     {
+        // Main entrance for Console Applications
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             // ExceptionExample("Amanda");
             DoubleCatch();
 
-            //try
-            //{
-               MethodA();
-            //}
-            //catch (Exception e)
-            //{
-            //    Console.WriteLine($"Caught in Main Method {e.Message}");
-            //}
+            // try block for Method A. This will add Method A to the callstack
+            try
+            {
+                MethodA();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Caught in Main Method {e.Message}");
+            }
 
             Console.WriteLine("I have continued");
         }
 
         static string ExceptionExample(string name)
         {
+            // Be sure to have the most specific exception first. The most general last.
             try
             {
                 Console.WriteLine("Please enter a number");

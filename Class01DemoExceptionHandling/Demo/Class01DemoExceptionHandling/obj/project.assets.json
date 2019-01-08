@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amand\\source\\repos\\seattle-dotnet-401d6\\Class01DemoExceptionHandling\\Class01DemoExceptionHandling\\Class01DemoExceptionHandling.csproj",
+      "projectUniqueName": "C:\\Users\\amand\\Source\\Repos\\seattle-dotnet-401d6\\Class01DemoExceptionHandling\\Demo\\Class01DemoExceptionHandling\\Class01DemoExceptionHandling.csproj",
       "projectName": "Class01DemoExceptionHandling",
-      "projectPath": "C:\\Users\\amand\\source\\repos\\seattle-dotnet-401d6\\Class01DemoExceptionHandling\\Class01DemoExceptionHandling\\Class01DemoExceptionHandling.csproj",
+      "projectPath": "C:\\Users\\amand\\Source\\Repos\\seattle-dotnet-401d6\\Class01DemoExceptionHandling\\Demo\\Class01DemoExceptionHandling\\Class01DemoExceptionHandling.csproj",
       "packagesPath": "C:\\Users\\amand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amand\\source\\repos\\seattle-dotnet-401d6\\Class01DemoExceptionHandling\\Class01DemoExceptionHandling\\obj\\",
+      "outputPath": "C:\\Users\\amand\\Source\\Repos\\seattle-dotnet-401d6\\Class01DemoExceptionHandling\\Demo\\Class01DemoExceptionHandling\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
