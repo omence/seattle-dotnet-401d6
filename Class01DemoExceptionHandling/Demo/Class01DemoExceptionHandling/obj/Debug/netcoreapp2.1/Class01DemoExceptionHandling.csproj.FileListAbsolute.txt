@@ -1,0 +1,11 @@
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\bin\Debug\netcoreapp2.1\Class01DemoExceptionHandling.deps.json
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\bin\Debug\netcoreapp2.1\Class01DemoExceptionHandling.runtimeconfig.json
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\bin\Debug\netcoreapp2.1\Class01DemoExceptionHandling.runtimeconfig.dev.json
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\bin\Debug\netcoreapp2.1\Class01DemoExceptionHandling.dll
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\bin\Debug\netcoreapp2.1\Class01DemoExceptionHandling.pdb
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\obj\Debug\netcoreapp2.1\Class01DemoExceptionHandling.csprojAssemblyReference.cache
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\obj\Debug\netcoreapp2.1\Class01DemoExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\obj\Debug\netcoreapp2.1\Class01DemoExceptionHandling.AssemblyInfoInputs.cache
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\obj\Debug\netcoreapp2.1\Class01DemoExceptionHandling.AssemblyInfo.cs
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\obj\Debug\netcoreapp2.1\Class01DemoExceptionHandling.dll
+C:\Users\amand\source\repos\seattle-dotnet-401d6\Class01DemoExceptionHandling\Class01DemoExceptionHandling\obj\Debug\netcoreapp2.1\Class01DemoExceptionHandling.pdb
