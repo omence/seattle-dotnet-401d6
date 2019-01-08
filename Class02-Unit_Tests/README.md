@@ -9,6 +9,11 @@
 
 ## Lecture Outline
 
+### Class Overview
+1. Code Challenges and Whiteboarding
+2. Learning Journals
+3. Front Row Accounts
+
 ### Unit Testing
 - Test Driven Development
 - Red/Green/Refactor
