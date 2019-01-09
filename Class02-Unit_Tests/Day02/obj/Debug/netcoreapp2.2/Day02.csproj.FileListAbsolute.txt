@@ -1,0 +1,11 @@
+C:\Users\vinicio\source\repos\Day02\Day02\bin\Debug\netcoreapp2.2\Day02.deps.json
+C:\Users\vinicio\source\repos\Day02\Day02\bin\Debug\netcoreapp2.2\Day02.runtimeconfig.json
+C:\Users\vinicio\source\repos\Day02\Day02\bin\Debug\netcoreapp2.2\Day02.runtimeconfig.dev.json
+C:\Users\vinicio\source\repos\Day02\Day02\bin\Debug\netcoreapp2.2\Day02.dll
+C:\Users\vinicio\source\repos\Day02\Day02\bin\Debug\netcoreapp2.2\Day02.pdb
+C:\Users\vinicio\source\repos\Day02\Day02\obj\Debug\netcoreapp2.2\Day02.csprojAssemblyReference.cache
+C:\Users\vinicio\source\repos\Day02\Day02\obj\Debug\netcoreapp2.2\Day02.csproj.CoreCompileInputs.cache
+C:\Users\vinicio\source\repos\Day02\Day02\obj\Debug\netcoreapp2.2\Day02.AssemblyInfoInputs.cache
+C:\Users\vinicio\source\repos\Day02\Day02\obj\Debug\netcoreapp2.2\Day02.AssemblyInfo.cs
+C:\Users\vinicio\source\repos\Day02\Day02\obj\Debug\netcoreapp2.2\Day02.dll
+C:\Users\vinicio\source\repos\Day02\Day02\obj\Debug\netcoreapp2.2\Day02.pdb
