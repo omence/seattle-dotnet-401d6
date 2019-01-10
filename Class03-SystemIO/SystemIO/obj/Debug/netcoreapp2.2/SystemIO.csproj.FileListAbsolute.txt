@@ -1,0 +1,11 @@
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\bin\Debug\netcoreapp2.2\SystemIO.deps.json
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\bin\Debug\netcoreapp2.2\SystemIO.runtimeconfig.json
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\bin\Debug\netcoreapp2.2\SystemIO.runtimeconfig.dev.json
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\bin\Debug\netcoreapp2.2\SystemIO.dll
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\bin\Debug\netcoreapp2.2\SystemIO.pdb
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\obj\Debug\netcoreapp2.2\SystemIO.csprojAssemblyReference.cache
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\obj\Debug\netcoreapp2.2\SystemIO.csproj.CoreCompileInputs.cache
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\obj\Debug\netcoreapp2.2\SystemIO.AssemblyInfoInputs.cache
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\obj\Debug\netcoreapp2.2\SystemIO.AssemblyInfo.cs
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\obj\Debug\netcoreapp2.2\SystemIO.dll
+C:\Users\vinicio\source\repos\codefellows\seattle-dotnet-401d6\Class03-SystemIO\SystemIO\obj\Debug\netcoreapp2.2\SystemIO.pdb
