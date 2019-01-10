@@ -10,7 +10,10 @@ namespace SystemIO
             // Vinicio - we are relying on the intenal structure of the project
             string path = "../../../testFile.txt";
             //CreateFile(path);
-            ReadFile(path);
+            //ReadFile(path);
+            //AppendToFile(path);
+            //DeleteFile(path);
+            PlayingWithSplit();
         }
 
         static void CreateFile(string path)
@@ -23,8 +26,17 @@ namespace SystemIO
                 {
                     // Vinicio - as soon as I leave this block. THe engine will dispose
                     // streamWriter
+
                     //Console.WriteLine("Gregor is the very best");
-                    streamWriter.WriteLine("Gregor is the very best -- NEW FILE");
+                    try
+                    {
+                        streamWriter.WriteLine("Gregor is the very best -- NEW FILE");
+                    }
+                    catch (Exception)
+                    {
+
+                        throw;
+                    }
                 } 
 
             }
@@ -81,6 +93,47 @@ namespace SystemIO
             {
 
                 throw;
+            }
+        }
+
+        static void AppendToFile(string path)
+        {
+            try
+            {
+                using(StreamWriter streamWriter = File.AppendText(path))
+                {
+                    streamWriter.WriteLine("This is a new line that's going to be added to the file");
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        static void DeleteFile(string path)
+        {
+            try
+            {
+                File.Delete(path);
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        static void PlayingWithSplit()
+        {
+            char[] delimiterCharacters = {' ', ',', '.', ':', '\t'};
+            string textToSplit = "one\ttwo three,four:five";
+            string[] words = textToSplit.Split(delimiterCharacters);
+            foreach(string word in words)
+            {
+                Console.WriteLine(word);
             }
         }
     }
