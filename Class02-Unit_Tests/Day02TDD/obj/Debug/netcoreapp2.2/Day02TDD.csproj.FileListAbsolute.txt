@@ -1,0 +1,17 @@
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\Day02TDD.deps.json
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\Day02TDD.runtimeconfig.json
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\Day02TDD.runtimeconfig.dev.json
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\Day02TDD.dll
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\Day02TDD.pdb
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\Day02.dll
+C:\Users\vinicio\source\repos\Day02\Day02TDD\bin\Debug\netcoreapp2.2\Day02.pdb
+C:\Users\vinicio\source\repos\Day02\Day02TDD\obj\Debug\netcoreapp2.2\Day02TDD.csprojAssemblyReference.cache
+C:\Users\vinicio\source\repos\Day02\Day02TDD\obj\Debug\netcoreapp2.2\Day02TDD.csproj.CoreCompileInputs.cache
+C:\Users\vinicio\source\repos\Day02\Day02TDD\obj\Debug\netcoreapp2.2\Day02TDD.AssemblyInfoInputs.cache
+C:\Users\vinicio\source\repos\Day02\Day02TDD\obj\Debug\netcoreapp2.2\Day02TDD.AssemblyInfo.cs
+C:\Users\vinicio\source\repos\Day02\Day02TDD\obj\Debug\netcoreapp2.2\Day02TDD.csproj.CopyComplete
+C:\Users\vinicio\source\repos\Day02\Day02TDD\obj\Debug\netcoreapp2.2\Day02TDD.dll
+C:\Users\vinicio\source\repos\Day02\Day02TDD\obj\Debug\netcoreapp2.2\Day02TDD.pdb
