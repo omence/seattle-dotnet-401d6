@@ -31,9 +31,9 @@ namespace Lab04_TicTacToe.Classes
         public Player Play()
         {
 
-            int counter = 0;
+            int turns = 0;
             //while there is no winner run the game
-            while (Winner == null && counter < 9)
+            while (Winner == null && turns < 9)
             {
 
                 //Game Logic
@@ -45,11 +45,11 @@ namespace Lab04_TicTacToe.Classes
                 }
                 else
                 {
-                    counter++;
+                    turns++;
                     SwitchPlayer();
                     Console.Clear();
                 }
-                if (counter == 9
+                if (turns == 9
                     && Winner == null)
                 {
                     Console.Clear();
@@ -63,7 +63,7 @@ namespace Lab04_TicTacToe.Classes
             Console.Clear();
             Console.WriteLine($"The winner is {Winner.Name}");
             Board.DisplayBoard();
-            Console.WriteLine("Press any key to exit . . .");
+            Console.WriteLine("Press Enter to Exit");
             Console.Read();
             return Winner;
         }
