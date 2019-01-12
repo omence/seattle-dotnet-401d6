@@ -5,7 +5,7 @@ using System.Text;
 namespace Lab04_TicTacToe.Classes
 {
     class Player
-    {
+    {   //gets and sets the name of players
 		public string Name { get; set; }
 		/// <summary>
 		/// P1 is X and P2 will be O
@@ -17,7 +17,11 @@ namespace Lab04_TicTacToe.Classes
 		/// </summary>
 		public bool IsTurn { get; set; }
 
-
+        /// <summary>
+        /// Prompts the player to choose a position on the board
+        /// </summary>
+        /// <param name="board"></param>
+        /// <returns>returns the position the player chooses</returns>
 		public Position GetPosition(Board board)
 		{
 			Position desiredCoordinate = null;
@@ -31,7 +35,11 @@ namespace Lab04_TicTacToe.Classes
 
 		}
 
-
+        /// <summary>
+        /// This represents the possible positions
+        /// </summary>
+        /// <param name="position"></param>
+        /// <returns></returns>
 		public static Position PositionForNumber(int position)
 		{
 			switch (position)
@@ -50,7 +58,10 @@ namespace Lab04_TicTacToe.Classes
 			}
 		}
 
-	
+	    /// <summary>
+        /// This tell the player when it is their turn and marks the position they choose
+        /// </summary>
+        /// <param name="board"></param>
 		public void TakeTurn(Board board)
 		{
 			IsTurn = true;

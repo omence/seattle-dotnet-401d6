@@ -30,8 +30,36 @@ namespace Lab04_TicTacToe.Classes
 		/// <returns>Winner</returns>
 		public Player Play()
 		{
+            int turns = 0;
+            while (Winner == null || turns <= 9)
+            {
 
-			//TODO: Complete this method and utilize the rest of the class structure to play the game.
+                turns++;
+                Board.DisplayBoard();
+                PlayerOne.TakeTurn(Board);
+                NextPlayer();
+                SwitchPlayer();
+                CheckForWinner(Board);
+                Console.Clear();
+                Console.WriteLine(turns);
+
+                turns++;
+                Board.DisplayBoard();
+                PlayerTwo.TakeTurn(Board);
+                NextPlayer();
+                SwitchPlayer();
+                CheckForWinner(Board);
+                
+                Console.Clear();
+
+                
+
+            }
+                if (turns == 9)
+                {
+                Console.WriteLine("Draw");
+                }
+            //TODO: Complete this method and utilize the rest of the class structure to play the game.
 
             /*
              * Complete this method by constructing the logic for the actual playing of Tic Tac Toe. 
@@ -45,9 +73,11 @@ namespace Lab04_TicTacToe.Classes
                 Be sure to keep track of the number of turns that have been taken to determine if a draw is required
                 and make sure that the game continues while there are unmarked spots on the board. 
 
-            Use any and all pre-existing methods in this program to help construct the method logic. 
+            Use any and all pre-existing methods in this program to help construct the method logic.
+            
              */
-		}
+            return Winner;
+        }
 
 
 		/// <summary>
@@ -84,6 +114,11 @@ namespace Lab04_TicTacToe.Classes
 
 				// TODO:  Determine a winner has been reached. 
 				// return true if a winner has been reached. 
+                if(a == b && b == c && a ==c)
+                {
+                 
+                    return true;
+                }
 			
 			}
 
