@@ -4,20 +4,20 @@ using System.Text;
 
 namespace Lab04_TicTacToe.Classes
 {
-	class Game
+	public class Game
 	{
 		public Player PlayerOne { get; set; }
 		public Player PlayerTwo { get; set; }
 		public Player Winner { get; set; }
 		public Board Board { get; set; }
 
-
-		/// <summary>
-		/// Require 2 players and a board to start a game. 
-		/// </summary>
-		/// <param name="p1">Player 1</param>
-		/// <param name="p2">Player 2</param>
-		public Game(Player p1, Player p2)
+        
+        /// <summary>
+        /// Require 2 players and a board to start a game. 
+        /// </summary>
+        /// <param name="p1">Player 1</param>
+        /// <param name="p2">Player 2</param>
+        public Game(Player p1, Player p2)
 		{
 			PlayerOne = p1;
 			PlayerTwo = p2;
@@ -30,11 +30,12 @@ namespace Lab04_TicTacToe.Classes
         /// <returns>Winner</returns>
         public Player Play()
         {
-
+            int draw = 0;
             int turns = 0;
             //while there is no winner run the game
             while (Winner == null && turns < 9)
             {
+                
 
                 //Game Logic
                 Board.DisplayBoard();
@@ -52,12 +53,14 @@ namespace Lab04_TicTacToe.Classes
                 if (turns == 9
                     && Winner == null)
                 {
+                    
                     Console.Clear();
-                    Console.WriteLine("Draw!");
+                    Console.WriteLine("Draw");
                     Board.DisplayBoard();
-                    Console.WriteLine("Press any key to exit . . .");
+                    Console.WriteLine("Press Enter to Exit");
                     Console.ReadKey();
                     Environment.Exit(0);
+                    draw++;
                 }
             }
             Console.Clear();
