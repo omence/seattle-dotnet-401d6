@@ -5,6 +5,10 @@ namespace Lab04_TicTacToe
 {
     public class Program
     {
+        /// <summary>
+        /// Creates instances of game and plaer classes and runs the game
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
