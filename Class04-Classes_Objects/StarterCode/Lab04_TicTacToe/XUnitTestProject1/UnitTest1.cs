@@ -7,7 +7,7 @@ namespace XUnitTestProject1
     public class UnitTest1
     {
         [Fact]
-        public void WinWorks()
+        public void WinOWorks()
         {
             //arrange
             Player playerOne = new Player();
@@ -72,23 +72,25 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void DrawWorks()
+        public void WinXWorks()
         {
             //arrange
             Player playerOne = new Player();
             playerOne.Marker = "X";
-
             Player playerTwo = new Player();
             playerTwo.Marker = "O";
-            
-            
 
             //act
             Game game = new Game(playerOne, playerTwo);
-            game.Play.turns = 9;
-            //assert
 
-            Assert.Equal(1, game.Play.draw);
+            game.Board.GameBoard[0, 0] = "X";
+            game.Board.GameBoard[1, 0] = "X";
+            game.Board.GameBoard[2, 0] = "X";
+
+            //assert
+            Assert.True(game.CheckForWinner(game.Board));
         }
+
+
     }
 }
